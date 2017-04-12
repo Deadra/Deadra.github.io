@@ -20,3 +20,9 @@
 при первом входе нас попросят авторизоваться.
 
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-21-53.png)
+
+Далее у нас уже есть установленный docker на VB 
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-05-47.png)
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-05-47.png)
