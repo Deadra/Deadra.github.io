@@ -124,11 +124,7 @@ Kitematic - простая программа для запуска контей
 Для просмотра всех журналов необходимо использовать команду, обеспечивающую просмотр не только каталога /var/log, но и всех его
 подкаталогов с помощью команды ls -R
 
-
-![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_22-56-40.png)
-
-
-![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_22-58-13.png)
+![Image alt]()
 
 Проверим командой **docker ps**, что сейчас действительно запущщен docker.
 
