@@ -19,4 +19,4 @@
 Дождавшийся установки программы и настройки docker machine в VB запускаем Kitematic,
 при первом входе нас попросят авторизоваться.
 
-![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-03-14.png)
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-21-53.png)
