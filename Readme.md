@@ -61,12 +61,54 @@ Kitematic - простая программа для запуска контей
 
 Выполним , **docker run hello-world**, для загрузки образа из Docker Hub и запуска контейнера.
 
-![Image alt]()
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-13-36.png)
 
 Запустим контейнер Ubuntu с этой командой: **docker run -it ubuntu bash**
 
-Эта команда загрузит **ubuntu** контейнер и запустит его.
+Эта команда загрузит **ubuntu** контейнер и запустит его. 
+
+(таким же образом можно устанавливать и другие версии Linux)
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-20-50.png)
+
+Предлагаю поэксперементировать с установленой версией ubuntu и проделать пару шагов для выявления возможностей установленной ubuntu
+
+Для начала определим в каком мы сейчас находимся каталоге командой **ls**
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-21-35.png)
+
+Перейдем в каталог etc следующей командой: **cd /etc/** и определим содержимое каталога etc с помощью команды **ls**
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-23-09.png)
+
+Посмотрим что есть в каталоге init.d, передем в него и определим его содержимое **cd /etc/init.d && ls**
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-25-51.png)
+
+Откроем файл README с помощью команды **nano**, тут первая трудность, такой команды не существует.
 
 ![Image alt]()
 
+Но мы не будем отступать и установим данный текстовый редактор. 
 
+Заметим что с начала надо обнавить индекс пакетов APT. По существу это база данных доступных пакетов, определенных в файле
+/etc/apt/sources.list и каталоге /etc/apt/sources.list.d . Для обновления локального индекса пакетов до последних изменений необхадимо
+набрать следующую команду: **apt-get update** или с правами Sudo **sudo apt-get update** 
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-26-36.png)
+
+Затем установим текстовый редактор - nano
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-26-51.png)
+
+Как видно текстовый редактор успешно установлен.
+
+Откроем текстовый файл в каталоге **init.d** - Skeleton с помощью следующей команды: **nano /etc/init.d/skeleton**
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-30-56.png)
+
+Успешно!!!
+
+
+![Image alt]()
+![Image alt]()
