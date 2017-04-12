@@ -41,6 +41,32 @@ Kitematic - простая программа для запуска контей
 
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-26-32.png)
 
-Вот вывод **docker ps**. (В этом примере, никакие контейнеры не работает пока.)
+Вот вывод **docker ps**.
 
-![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-26-32.png)
+В этом примере, никакие контейнеры не работают.
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-59-55.png)
+
+Ниже приведен пример вывода команды для **docker version**.
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-49-38.png)
+
+Как видно из изображения, клиент OS - Windows 64-разрядный, а сервер linux 64- разрядный.
+
+Ниже приведен пример вывода команды для **docker info**.
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-53-55.png)
+
+На этом изображении приведена подробная информация о клиенте и сервере, их версии и т.п.
+
+Выполним , **docker run hello-world**, для загрузки образа из Docker Hub и запуска контейнера.
+
+![Image alt]()
+
+Запустим контейнер Ubuntu с этой командой: **docker run -it ubuntu bash**
+
+Эта команда загрузит **ubuntu** контейнер и запустит его.
+
+![Image alt]()
+
+
