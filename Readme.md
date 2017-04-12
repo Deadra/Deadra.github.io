@@ -2,6 +2,11 @@
 -----------------------------------
 Установка Docker machine через DockerToolbox.
 -----------------------------------
+При попытке установки Docker machine на Windows 10 встречаем ошибку сообщающую, что установить docker на window 10 home невозможно без
+DockerToolbox
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_19-57-37.png)
+
 Для установки Docker machine необхадимо скачать оффициальную программу [DockerToolbox](https://www.docker.com/products/docker-toolbox),
 так же необхадимо заранее зарегестрироваться на [офффициальном сайте](https://www.docker.com/) 
 
@@ -21,8 +26,21 @@
 
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-21-53.png)
 
-Далее у нас уже есть установленный docker на VB 
+Далее у нас уже есть установленный docker на VB названный default 
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-25-42.png)
+
+Kitematic - простая программа для запуска контейнеров через, мощный графический пользовательский интерфейс.
 
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-05-47.png)
 
-![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-05-47.png)
+Следующие команды это лишь несколько способов , чтобы экспериментировать с docker на вашей системе, проверить информацию о версии, и 
+убедитесь , что docker команды работают должным образом.
+
+Запустим docker машину
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-26-32.png)
+
+Вот вывод **docker ps**. (В этом примере, никакие контейнеры не работает пока.)
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-26-32.png)
