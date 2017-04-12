@@ -26,13 +26,13 @@ DockerToolbox
 
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-21-53.png)
 
-Далее у нас уже есть установленный docker на VB названный default 
-
-![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-25-42.png)
-
 Kitematic - простая программа для запуска контейнеров через, мощный графический пользовательский интерфейс.
 
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-05-47.png)
+
+У нас уже есть установленный docker на VB названный default 
+
+![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-25-42.png)
 
 Следующие команды это лишь несколько способов , чтобы экспериментировать с docker на вашей системе, проверить информацию о версии, и 
 убедитесь , что docker команды работают должным образом.
@@ -41,11 +41,11 @@ Kitematic - простая программа для запуска контей
 
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-26-32.png)
 
-Вот вывод **docker ps**.
-
-В этом примере, никакие контейнеры не работают.
+Введем команду **docker ps** и посмотрим результат:
 
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_20-59-55.png)
+
+Видно, что в этом примере, никакие контейнеры не работают.
 
 Ниже приведен пример вывода команды для **docker version**.
 
@@ -108,6 +108,10 @@ Kitematic - простая программа для запуска контей
 ![Image alt](https://github.com/Deadra/Deadra.github.io/blob/master/Scr/2017-04-12_21-30-56.png)
 
 Успешно!!!
+
+Продолжим выполнение иследовательской работы.
+
+
 
 Проверим командой **docker ps**, что сейчас действительно запущщен docker.
 
